@@ -1,18 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #1b1b1b;
     font-family: 'Inter', sans-serif;
 }
-
 button {
     padding: 1rem 2rem;
     font-family: 'Inter', sans-serif;
@@ -28,7 +25,6 @@ button {
         color: white;
     }
 }
-
 h2 {
     font-size: 4rem;
     font-weight: lighter;
@@ -37,6 +33,7 @@ h3 {
     color: white;
 }
 h4 {
+    font-size: 2rem;
     font-weight: bold;
 }
 a {
@@ -46,7 +43,7 @@ span {
     font-weight: bold;
     color: #23d997;
 }
-p{
+p {
     padding: 3rem 0rem;
     font-size: 1.4rem;
     line-height: 150%;
