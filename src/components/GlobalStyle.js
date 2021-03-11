@@ -10,10 +10,12 @@ const GlobalStyle = createGlobalStyle`
 
 body {
     background-color: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 
 button {
     padding: 1rem 2rem;
+    font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
     background-color: transparent; 
